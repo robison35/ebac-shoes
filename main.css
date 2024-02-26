@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+header, footer {
+    background-color: #3f3fc2;
+    color: #fff;
+    padding: 12px;
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-flex {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    display: inline;
+    margin-right: 16px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 35px 0;
+}
+
+section h2 {
+    margin-bottom: 24px;
+    border-bottom: 2px solid #3f3fc2;
+    color: #3f3fc2;
+}
+
+section img {
+    height: 330px;
+    margin-right: 32px;
+}
+
+.lista-tenis {
+    justify-content: space-between;
+    margin-right: 8px;
+}
+
+.lista-tenis li {
+    list-style: none;
+    max-width: 30%;
+    padding: 12px;
+}
+
+.lista-tenis li h3 {
+    margin: 18px 0;
+}
+
+.lista-tenis li img {
+    height: 180px;
+    max-width: 100%;
+}
+
+.lista-tenis li p {
+    margin-bottom: 14px;
+}
+
+.lista-tenis li button {
+    padding: 8px 0;
+    background-color: rgb(56, 56, 206);
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 3px;
+    border: none;
+    width: 100%;
+}
+
+footer li {
+    list-style: none;
+    margin-left: 16px;
+}
+
+footer li img {
+    height: 32px;
+}
